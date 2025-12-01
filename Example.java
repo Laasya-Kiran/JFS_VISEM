@@ -3,6 +3,7 @@ class Example
   public static void main(String [] args)
   {
 	System.out.println("Welcome to VI sem!!");
+  System.out.println("Practice git");
   }
 
 }
