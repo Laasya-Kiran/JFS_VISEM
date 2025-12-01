@@ -1,0 +1,61 @@
+body {
+    font-family: Arial, sans-serif;
+    padding: 20px;
+}
+
+h1 {
+    text-align: center;
+}
+
+.container {
+    margin-top: 20px;
+    display: flex;
+    align-items: center;
+    
+}
+
+.circle-image {
+    width: 180px;
+    height: 180px;
+    border-radius: 50%;
+    object-fit: cover;
+    border: 5px solid #555;
+    margin-right: 30px;
+}
+
+.info-box {
+    border: 2px solid black;
+    padding: 15px;
+    width: 400px;
+    min-height: 150px;
+    background: #f9f9f9;
+}
+/* style.css */
+.circle-image {
+    width: 200px;
+    height: 200px;
+    object-fit: cover;   /* keeps image aspect and fills box */
+    border-radius: 50%;  /* circle */
+    display: block;
+}
+
+.square-image {
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 0;    /* square */
+    display: block;
+}
+
+/* optional: add a smooth transition when switching shapes */
+#inventorImage {
+    transition: border-radius 0.2s ease;
+}
+
+/* style for info box if needed */
+.info-box {
+    margin-top: 12px;
+    padding: 8px;
+    border: 1px solid #ccc;
+    max-width: 320px;
+}
