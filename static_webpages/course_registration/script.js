@@ -43,9 +43,9 @@ document.getElementById("regForm").addEventListener("submit", function(e){
         <h3>Registration Summary</h3>
         <p><strong>Student Name:</strong> ${studentName}</p>
         <p><strong>Selected Subjects:</strong></p>
-        <ul>
+        <ol>
             ${selectedSubjects.map(sub => `<li>${sub}</li>`).join("")}
-        </ul>
+        </ol>
         <p><strong>Total Fee:</strong> ₹${totalFee}</p>
     `;
 
