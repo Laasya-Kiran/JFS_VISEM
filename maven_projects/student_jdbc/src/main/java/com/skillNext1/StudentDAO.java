@@ -62,6 +62,28 @@ public class StudentDAO {
         stmt.executeUpdate();
         conn.close();
     }
+    public void getBranchWiseCount() throws Exception {
+
+        Connection conn = DriverManager.getConnection(URL, USER, PASSWORD);
+
+        String sql = "SELECT dept, COUNT(*) AS count FROM students GROUP BY dept";
+        Statement stmt = conn.createStatement();
+        ResultSet rs = stmt.executeQuery(sql);
+
+        System.out.println("\nBranch Wise Student Count");
+        System.out.println("--------------------------");
+
+        while (rs.next()) {
+            String dept = rs.getString("dept");
+            int count = rs.getInt("count");
+
+            System.out.println(dept + " : " + count);
+        }
+
+        rs.close();
+        stmt.close();
+        conn.close();
+    }
 }
 
 

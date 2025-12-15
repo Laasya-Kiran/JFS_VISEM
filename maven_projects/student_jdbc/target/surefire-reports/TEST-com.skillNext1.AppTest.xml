@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="com.skillNext1.AppTest" time="0.004" tests="1" errors="0" skipped="0" failures="0">
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="com.skillNext1.AppTest" time="0.022" tests="1" errors="0" skipped="0" failures="0">
   <properties>
     <property name="sun.desktop" value="windows"/>
     <property name="awt.toolkit" value="sun.awt.windows.WToolkit"/>
@@ -17,7 +17,7 @@
     <property name="sun.java.launcher" value="SUN_STANDARD"/>
     <property name="user.country" value="IN"/>
     <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk-11\bin"/>
-    <property name="sun.java.command" value="C:\Users\srila\AppData\Local\Temp\surefire3113031660778986889\surefirebooter-20251215094303536_3.jar C:\Users\srila\AppData\Local\Temp\surefire3113031660778986889 2025-12-15T09-43-03_350-jvmRun1 surefire-20251215094303536_1tmp surefire_0-20251215094303536_2tmp"/>
+    <property name="sun.java.command" value="C:\Users\srila\AppData\Local\Temp\surefire7669137950745013713\surefirebooter-20251215111957088_3.jar C:\Users\srila\AppData\Local\Temp\surefire7669137950745013713 2025-12-15T11-19-56_386-jvmRun1 surefire-20251215111957088_1tmp surefire_0-20251215111957088_2tmp"/>
     <property name="jdk.debug" value="release"/>
     <property name="surefire.test.class.path" value="D:\cdc_training\JFS_VIsem\maven_projects\student_jdbc\target\test-classes;D:\cdc_training\JFS_VIsem\maven_projects\student_jdbc\target\classes;C:\Users\srila\.m2\repository\com\mysql\mysql-connector-j\8.0.33\mysql-connector-j-8.0.33.jar;C:\Users\srila\.m2\repository\com\google\protobuf\protobuf-java\3.21.9\protobuf-java-3.21.9.jar;C:\Users\srila\.m2\repository\junit\junit\3.8.1\junit-3.8.1.jar;"/>
     <property name="sun.cpu.endian" value="little"/>
@@ -33,7 +33,7 @@
     <property name="java.specification.name" value="Java Platform API Specification"/>
     <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
     <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment"/>
-    <property name="surefire.real.class.path" value="C:\Users\srila\AppData\Local\Temp\surefire3113031660778986889\surefirebooter-20251215094303536_3.jar"/>
+    <property name="surefire.real.class.path" value="C:\Users\srila\AppData\Local\Temp\surefire7669137950745013713\surefirebooter-20251215111957088_3.jar"/>
     <property name="user.script" value=""/>
     <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
     <property name="java.runtime.version" value="11.0.18+9-LTS-195"/>
@@ -60,5 +60,5 @@
     <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
     <property name="java.class.version" value="55.0"/>
   </properties>
-  <testcase name="testApp" classname="com.skillNext1.AppTest" time="0.004"/>
+  <testcase name="testApp" classname="com.skillNext1.AppTest" time="0.0"/>
 </testsuite>

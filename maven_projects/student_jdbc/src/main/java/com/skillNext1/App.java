@@ -16,7 +16,8 @@ public class App {
             System.out.println("2. View All Students");
             System.out.println("3. Update Student");
             System.out.println("4. Delete Student");
-            System.out.println("5. Exit");
+            System.out.println("5. Branch-wise Count");
+            System.out.println("6. Exit");
             System.out.print("Enter choice: ");
             int choice = sc.nextInt();
             sc.nextLine(); // consume extra newline
@@ -71,7 +72,13 @@ public class App {
                     System.out.println("Student deleted successfully!");
                     break;
 
-                case 5:
+               case 5:
+                    System.out.println("Branch-wise Student Count:");
+                    dao.getBranchWiseCount();
+                    break;
+
+
+                case 6:
                     System.out.println("Exiting program...");
                     System.exit(0);
 
