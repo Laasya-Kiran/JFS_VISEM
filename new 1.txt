@@ -1,0 +1,42 @@
+In JDBC, we will execute SQL Commands
+In Hibernate(ORM Framework) we will store and retrieve objects
+Steps:
+1. Open Eclipse IDE (Integrated development environment)
+   ISE(Integrated Students environment)
+2. File -> New -> Maven Projects (inside eclipse)
+   Select "create a simple project" checkbox
+   click on Next ->
+   GroupID(means project name): Hibernate
+   ArtifactID: Hib_CRUD_1
+   Finish
+3. open pom.xml and change it with new dependencies
+
+Notice Maven Dependencies folder that contains hibernate-core jar file and mysql-connector
+
+4. Write a Bean named Course.java
+Right click on the project -> New -> Class
+Name: Course
+click on Finish
+public class Course{
+	private int cid;
+	private String cname;
+	private String content;
+	private int duration;
+}
+ 
+Right click on the file -> Source -> Generate Constructor from super class
+Right click on the file -> Source -> Generate Constructor using fields
+Right click on the file -> Source -> Generate Getters and setters -> select all -> generate
+Right click on the file -> Source -> Generate toString()
+Right click on the file -> Source -> Generate hashcode() and equals() 
+
+5. Write one hibernate mapping file Course.hbm.xml
+   Right click on the src/main/java -> New -> Others -> type xml
+   select XML file
+   click on Next -> File name: Course.hbm.xml
+   click on Next -> Next -> Finish
+
+
+
+ 
+
